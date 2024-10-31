@@ -55,7 +55,23 @@ Upon loading the app, you’ll be presented with reading exercises, including fl
 Use customizable features to adjust the word display, making it easier to focus on specific words and phrases.
 Track progress with interactive feedback, helping you improve comprehension and retention.
 File Structure
-flashfocus/ │ ├── static/ │ ├── css/ │ │ └── flashfocus.css # Styling for the app │ ├── templates/ │ ├── main.html # Main interface for the reading exercises │ ├── word_database.txt # Database of words for reading practice ├── app.py # Main Flask application ├── requirements.txt # List of Python dependencies └── README.md # This file
+
+*File Structure*
+
+FlashFocus/
+│
+├── static/
+│   ├── css/
+│   │   └── challenge.css            # Styling for the app
+│
+├── templates/
+│   ├── challenge.html            # Main game interface
+│
+├── words_standard.txt            # Word list for 'Standard' difficulty
+├── words_advanced.txt            # Word list for 'Advanced' difficulty
+├── app.py                        # Main Flask application
+├── requirements.txt              # List of Python dependencies
+└── README.md                     # This file
 
 How It Works
 Word Selection: The app selects words from a custom word database.
